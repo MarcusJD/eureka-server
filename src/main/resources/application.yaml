@@ -1,0 +1,11 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: eureka-server
+eureka:
+  client:
+    enabled: true
+    register-with-eureka: false #N�o registrar mais de uma inst�ncia automaticamente
+    fetch-registry: false #Fornecer as informa��es do registro no eureka server manualmente
+
